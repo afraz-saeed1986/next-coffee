@@ -1,0 +1,227 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "Black Coffee",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 8,
+      "img": "/images/menu-1.jpg",
+      "off": 50,
+      "score": 5,
+      "type": "cold"
+    },
+    {
+      "id": 2,
+      "title": "Iced Latte",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 9,
+      "img": "/images/menu-2.jpg",
+      "off": 0,
+      "score": 5,
+      "type": "cold"
+    },
+    {
+      "id": 3,
+      "title": "Cold Brew",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 10,
+      "img": "/images/menu-3.jpg",
+      "off": 10,
+      "score": 4,
+      "type": "cold"
+    },
+    {
+      "id": 4,
+      "title": "Iced Matcha",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 11,
+      "img": "/images/menu-4.jpg",
+      "off": 0,
+      "score": 5,
+      "type": "cold"
+    },
+    {
+      "id": 5,
+      "title": "Fruit Smoothie",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 12,
+      "img": "/images/menu-5.jpg",
+      "off": 5,
+      "score": 4,
+      "type": "cold"
+    },
+    {
+      "id": 6,
+      "title": "Chocolete Coffee",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 9,
+      "img": "/images/menu-6.jpg",
+      "off": 0,
+      "score": 4.8,
+      "type": "hot"
+    },
+    {
+      "id": 7,
+      "title": "Espresso Macchiato",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 6,
+      "img": "/images/menu-7.jpg",
+      "off": 0,
+      "score": 4.9,
+      "type": "hot"
+    },
+    {
+      "id": 8,
+      "title": "Vanilla Cappuccino",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 8,
+      "img": "/images/menu-8.jpg",
+      "off": 5,
+      "score": 4.7,
+      "type": "hot"
+    },
+    {
+      "id": 9,
+      "title": "Turkish Coffee",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 7,
+      "img": "/images/menu-9.jpg",
+      "off": 0,
+      "score": 5,
+      "type": "hot"
+    },
+    {
+      "id": 10,
+      "title": "Hot Mocha",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "price": 10,
+      "img": "/images/menu-10.jpg",
+      "off": 10,
+      "score": 4.9,
+      "type": "hot"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Fastest Door Delivery",
+      "img": "/images/service-1.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "icon": "faTruck"
+    },
+    {
+      "id": 2,
+      "title": "Fastest Door Delivery",
+      "img": "/images/service-2.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "icon": "faCoffee"
+    },
+    {
+      "id": 3,
+      "title": "Best Quality Coffee",
+      "img": "/images/service-3.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "icon": "faAward"
+    },
+    {
+      "id": 4,
+      "title": "Online Table Booking",
+      "img": "/images/service-4.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "icon": "faTable"
+    }
+  ],
+  "newsLetters": [
+    {
+      "id": 1,
+      "email": "saeed@gmail.com"
+    },
+    {
+      "id": 2,
+      "email": "amin@gmail.com"
+    },
+    {
+      "email": "ali@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "mmd@gmail.com",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "username": "S_Afraz",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus expedita perferendis praesentium temporibus unde repellat, quae corporis rem dicta.",
+      "productID": 1,
+      "score": 5,
+      "profile": "/images/testimonial-1.jpg"
+    },
+    {
+      "id": 2,
+      "username": "Amin_Saeedi",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus expedita perferendis praesentium temporibus unde repellat, quae corporis rem dicta.",
+      "productID": 2,
+      "score": 4.5,
+      "profile": "/images/testimonial-2.jpg"
+    },
+    {
+      "id": 3,
+      "username": "Ramin Navvabian",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus expedita perferendis praesentium temporibus unde repellat, quae corporis rem dicta.",
+      "productID": 1,
+      "score": 4.9,
+      "profile": "/images/testimonial-3.jpg"
+    },
+    {
+      "id": 4,
+      "username": "Sohrab Afraz",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus expedita perferendis praesentium temporibus unde repellat, quae corporis rem dicta.",
+      "productID": 2,
+      "score": 5,
+      "profile": "/images/testimonial-4.jpg"
+    },
+    {
+      "id": 5,
+      "username": "Mmd Mohammadi",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus expedita perferendis praesentium temporibus unde repellat, quae corporis rem dicta.",
+      "productID": 1,
+      "score": 5,
+      "profile": "/images/testimonial-4.jpg"
+    }
+  ],
+  "reserve": [
+    {
+      "name": "Saeed Afraz",
+      "email": "sa.padnick@gmail.com",
+      "date": "05/23/2026",
+      "time": "10:15",
+      "person": "2",
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "username": "amin",
+      "email": "amin@gmail.com",
+      "subject": "React Native Course",
+      "body": "Please teach react native course"
+    },
+    {
+      "username": "Saeed Afraz",
+      "email": "sa.padnick@gmail.com",
+      "subject": "Teach NextJs",
+      "body": "Please teach nextjs course.",
+      "id": 2
+    },
+    {
+      "username": "Mmd",
+      "email": "mohammad@gmail.com",
+      "subject": "Teach ReactJs",
+      "body": "Please teach ReactJs course.",
+      "id": 3
+    }
+  ]
+}
