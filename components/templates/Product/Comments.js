@@ -1,9 +1,11 @@
+import styles from "@/styles/Product.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { faHourglass2 } from "@fortawesome/free-solid-svg-icons";
 
-const Comments = () => {
+const Comments = ({ data }) => {
   return (
     <div className="container-fluid pt-5">
       <div className="container">
@@ -17,42 +19,41 @@ const Comments = () => {
           <h1 className="display-4">Product Comments</h1>
         </div>
         <div className="row">
-          <div className="testimonial-item">
-            <div className="d-flex align-items-center mb-3">
-              <img
-                className="img-fluid"
-                width={100}
-                src="/images/testimonial-3.jpg"
-                alt=""
-              />
-              <div className="ml-3">
-                <h4>Alireza</h4>
-                <p className="text-left mb-0">User</p>
-              </div>
-            </div>
-            <p className="m-0 mb-4">
-              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-              eirmod clita lorem. Dolor tempor ipsum sanct clita
-            </p>
-          </div>
-          <div className="testimonial-item">
-            <div className="d-flex align-items-center mb-3">
-              <img
-                className="img-fluid"
-                width={100}
-                src="/images/testimonial-4.jpg"
-                alt=""
-              />
-              <div className="ml-3">
-                <h4>Amin Saeedi</h4>
-                <p className="text-left mb-0">User</p>
-              </div>
-            </div>
-            <p className="m-0 mb-4">
-              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-              eirmod clita lorem. Dolor tempor ipsum sanct clita
-            </p>
-          </div>
+          <Swiper
+            loop={true}
+            slidesPerView={2}
+            spaceBetween={100}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className={styles.swiper}
+            style={{ justifyContent: "center", alignItems: "center" }}
+          >
+            {data.length ? (
+              data?.slice(0, 6).map((comment) => (
+                <SwiperSlide className={styles.swiper_slide} key={comment.id}>
+                  <div className="testimonial-item">
+                    <div className="d-flex align-items-center mb-3">
+                      <img
+                        className="img-fluid"
+                        width={100}
+                        src={comment.profile}
+                        alt=""
+                      />
+                      <div className="ml-3">
+                        <h4>{comment.username}</h4>
+                        <p className="text-left mb-0">User</p>
+                      </div>
+                    </div>
+                    <p className="m-0 mb-4">{comment.body}</p>
+                  </div>
+                </SwiperSlide>
+              ))
+            ) : (
+              <h2 style={{ textAlign: "center" }}>There is no comment yet!!</h2>
+            )}
+          </Swiper>
         </div>
       </div>
     </div>

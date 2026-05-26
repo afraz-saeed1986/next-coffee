@@ -3,11 +3,11 @@ import Comments from "@/components/templates/Product/Comments";
 import ProductDetails from "@/components/templates/Product/ProductDetails";
 import React from "react";
 
-function Product({ product }) {
+function Product({ product, comments }) {
   return (
     <>
       <ProductDetails data={product} />
-      <Comments />
+      <Comments data={comments} />
     </>
   );
 }
@@ -31,15 +31,23 @@ export async function getStaticPaths(context) {
 export async function getStaticProps(context) {
   const { params } = context;
 
-  const res = await fetch(`http://localhost:4000/menu/${params.id}`);
-  const product = await res.json();
+  const productResponse = await fetch(
+    `http://localhost:4000/menu/${params.id}`,
+  );
+  const productData = await productResponse.json();
 
-  console.log("Product =>", product);
+  const commentsResponse = await fetch(`http://localhost:4000/comments`);
+  const comments = await commentsResponse.json();
 
+  const productComments = comments.filter(
+    (comment) => comment.productID === +params.id,
+  );
   return {
     props: {
-      product,
+      product: productData,
+      comments: productComments,
     },
+    revalidate: 60 * 60 * 12, // SSG-ISR
   };
 }
 
