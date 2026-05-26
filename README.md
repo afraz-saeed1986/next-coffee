@@ -82,6 +82,10 @@ npm install
 npm run dev
 ```
 
+```bash
+npm run server
+```
+
 Now open:
 
 ```bash
