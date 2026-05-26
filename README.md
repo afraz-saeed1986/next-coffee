@@ -96,19 +96,29 @@ http://localhost:3000
 
 ## 📸 Screenshots
 
-> Add project screenshots here
-
-```md
 <p align="center">
   <img 
-    src="https://raw.githubusercontent.com/afraz-saeed1986/next-coffee/main/public/screenshots/home.png" 
+    src="https://raw.githubusercontent.com/afraz-saeed1986/next-coffee/main/public/screenshots/home.png"
     alt="Home Page"
     width="900"
   />
 </p>
-/public/screenshots/menu.png
-/public/screenshots/reservation.png
-```
+
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/afraz-saeed1986/next-coffee/main/public/screenshots/menu.png"
+    alt="Menu Page"
+    width="900"
+  />
+</p>
+
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/afraz-saeed1986/next-coffee/main/public/screenshots/reservation.png"
+    alt="Reservation Page"
+    width="900"
+  />
+</p>
 
 ---
 
