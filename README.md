@@ -99,7 +99,13 @@ http://localhost:3000
 > Add project screenshots here
 
 ```md
-![Home Screenshot](https://raw.githubusercontent.com/afraz-saeed1986/next-coffee/main/public/screenshots/home.png)
+<p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/afraz-saeed1986/next-coffee/main/public/screenshots/home.png" 
+    alt="Home Page"
+    width="900"
+  />
+</p>
 /public/screenshots/menu.png
 /public/screenshots/reservation.png
 ```
